@@ -1,0 +1,16 @@
+.imgg{
+    width: 25px;
+    height: 25px;
+    background: black;
+}
+
+.page_smoll_p{
+    color: chocolate;
+    font-family: var(--font-family);
+}
+
+.page__smoll{
+    background: rgb(23, 23, 23);
+    width: 100px;
+    height: 100px;
+}
