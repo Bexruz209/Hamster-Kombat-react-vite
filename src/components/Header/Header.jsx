@@ -3,6 +3,10 @@ import img_1 from "../../assets/Header/34.png"
 import imm from "../../assets/Header/00.jpg"
 import logo from "../../assets/Header/logo.png"
 import logo2 from "../../assets/Header/logo2.webp"
+import logo3 from "../../assets/Header/logo1.png"
+import logo4 from "../../assets/Header/logo2.png"
+import logo5 from "../../assets/Header/logo3.png"
+import logo6 from "../../assets/Header/logo4.png"
 import { useState } from 'react'
 import "./Header.css"
 
@@ -55,6 +59,26 @@ export default function Header() {
           <div className="box_left">
             <img src={logo2} alt="" className="logo"/>
             <p>Boost</p>
+          </div>
+        </div>
+        <div className="immer">
+          <div className="immer_smoll">
+            <div className="immer_left">
+              <img src={logo3} alt="" className="log"/>
+              <p className="pp">Exchange</p>
+            </div>
+            <div className="immer_left">
+              <img src={logo4} alt="" className="log"/>
+              <p className="pp">Mine</p>
+            </div>
+            <div className="immer_left">
+              <img src={logo5} alt="" className="log"/>
+              <p className="pp">Friends</p>
+            </div>
+            <div className="immer_left">
+              <img src={logo6} alt="" className="log"/>
+              <p className="pp">Earn</p>
+            </div>
           </div>
         </div>
       </div>

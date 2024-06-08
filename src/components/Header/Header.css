@@ -120,8 +120,8 @@
 .out_smoll_img {
     border-radius: 50%;
     border: none;
-    width: 150px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
 }
 
 .box{
@@ -148,4 +148,53 @@
 p{
     color: #fff;
     font-family: var(--font-family);
+}
+
+.immer_smoll{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    width: auto;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(23, 23, 23);
+}
+
+.log{
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.immer{
+    /* width: auto;
+    border: 1px solid red;
+    border-radius: 20px;
+    background: rgb(23, 23, 23); */
+}
+
+.immer_left{
+    background: rgb(23, 23, 23);
+}
+
+.immer_left:hover{
+    /* padding-top: 20px; */
+    border-radius: 10px;
+    background: black;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+}
+
+.pp{
+    font-family: var(--font-family);
+    font-size: 8px;
+    padding-bottom: 10px;
 }
